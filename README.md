@@ -19,11 +19,11 @@ src/
 ├── Controller/
 │   └── UserController.php      # API endpoints
 ├── Entity/
-│   └── User.php                # User entity with validation
+│   └── User.php                # user entity with validation
 ├── Repository/
-│   └── UserRepository.php      # Custom database queries
+│   └── UserRepository.php      # custom database queries
 └── DataFixtures/
-    └── UserFixtures.php        # Seed data (25 users)
+    └── UserFixtures.php        # seed data (25 users)
 ```
 
 ### User Entity

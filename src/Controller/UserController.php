@@ -60,7 +60,7 @@ class UserController extends AbstractController
             $user->setStatus($data['status']);
         }
 
-        // vaalidate the user entity
+        // validate the user entity
         $errors = $this->validator->validate($user);
 
         if (count($errors) > 0) {
