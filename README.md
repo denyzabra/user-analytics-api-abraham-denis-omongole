@@ -339,29 +339,29 @@ docker-compose up -d
 ```
 user-analytics-api/
 ├── bin/
-│   └── console                 # Symfony console script
+│   └── console                 
 ├── config/
-│   ├── bundles.php            # Registered bundles
-│   ├── packages/              # Bundle configurations
-│   ├── routes.yaml            # Route configuration
-│   └── services.yaml          # Service container
-├── migrations/                # Database migrations
+│   ├── bundles.php            
+│   ├── packages/              
+│   ├── routes.yaml            
+│   └── services.yaml          
+├── migrations/                
 ├── public/
-│   └── index.php             # Application entry point
+│   └── index.php             
 ├── src/
-│   ├── Controller/           # API controllers
-│   ├── Entity/              # Doctrine entities
-│   ├── Repository/          # Custom repositories
-│   ├── DataFixtures/        # Database fixtures
-│   └── Kernel.php           # Application kernel
-├── var/                      # Cache, logs, SQLite DB
-├── vendor/                   # Composer dependencies
-├── .env                      # Environment variables
+│   ├── Controller/           
+│   ├── Entity/              
+│   ├── Repository/        
+│   ├── DataFixtures/        
+│   └── Kernel.php           
+├── var/                      
+├── vendor/                 
+├── .env                     
 ├── .gitignore
-├── composer.json             # PHP dependencies
-├── docker-compose.yml        # Docker services
-├── Dockerfile               # PHP container
-└── README.md                # This file
+├── composer.json            
+├── docker-compose.yml        
+├── Dockerfile               
+└── README.md                
 ```
 
 
